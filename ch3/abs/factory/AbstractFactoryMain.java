@@ -4,6 +4,6 @@ public class AbstractFactoryMain {
 
     public static void main(String[] args){
         System.out.println("Factory Pattner: ");
-        AbstractFactory carFactory = FactoryProvider.getFactory("car");
+        AbstractFactory carFactory = FactoryProvider.getFactory(FactoryNames.CAR);
     }
 }
